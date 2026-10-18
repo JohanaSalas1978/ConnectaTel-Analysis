@@ -7,12 +7,14 @@ El proyecto analiza la información de los clientes, los planes contratados y el
 📂 Contenido del repositorio
 notebooks/connectatel_analysis.ipynb: notebook principal con la exploración, limpieza, análisis estadístico, visualizaciones, detección de valores atípicos, segmentación de clientes y conclusiones ejecutivas.
 data/: carpeta destinada a los archivos CSV originales del proyecto.
+
 📊 Datasets utilizados
 El análisis se basa en tres fuentes de datos:
 
 plans.csv: información de los planes Básico y Premium, incluyendo precios mensuales, minutos y mensajes incluidos, datos móviles y tarifas por consumo adicional.
 users_latam.csv: información de los clientes, como edad, ciudad, fecha de registro, plan contratado y fecha de cancelación del servicio.
 usage.csv: registros de uso de los servicios móviles, incluyendo identificador del cliente, tipo de evento, fecha, duración de llamadas y longitud de mensajes.
+
 🎯 Objetivos del análisis
 Explorar y comprender la estructura de los datasets.
 Identificar y tratar valores nulos, sentinels y fechas fuera del periodo establecido.
@@ -21,6 +23,7 @@ Construir perfiles estadísticos de los clientes según su uso de llamadas y men
 Detectar valores atípicos mediante estadísticas descriptivas, histogramas, diagramas de caja y el método IQR.
 Segmentar a los clientes por edad y nivel de uso.
 Identificar oportunidades para mejorar los planes, personalizar las ofertas y fortalecer la retención de clientes.
+
 🛠️ Herramientas utilizadas
 Python: procesamiento y análisis de datos.
 Pandas: limpieza, transformación, agrupación e integración de datasets.
@@ -28,6 +31,7 @@ NumPy: operaciones numéricas y creación de segmentos mediante condiciones lóg
 Matplotlib: elaboración de gráficos.
 Seaborn: visualización estadística de distribuciones y valores atípicos.
 Jupyter Notebook / Google Colab: desarrollo y documentación del proyecto.
+
 🔄 Etapas del análisis
 Carga y exploración: lectura de los archivos CSV, revisión de las primeras filas, dimensiones, tipos de datos y estructura de cada dataset.
 Diagnóstico de calidad: identificación de valores nulos, sentinels, inconsistencias entre tipos de eventos y fechas posteriores a 2024.
@@ -37,6 +41,7 @@ Análisis estadístico y visualización: cálculo de estadísticas descriptivas 
 Detección de valores atípicos: aplicación del método IQR y uso de diagramas de caja para identificar consumos extremos y evaluar su relevancia.
 Segmentación de clientes: clasificación por nivel de uso (Bajo uso, Uso medio y Alto uso) y por edad (Joven, Adulto y Adulto Mayor).
 Análisis ejecutivo: síntesis de los principales hallazgos y elaboración de recomendaciones comerciales para ConnectaTel.
+
 🔎 Principales hallazgos
 Calidad de los datos: se identificaron valores inválidos en la edad (-999), ciudades desconocidas (?), fechas de registro de 2026 y registros con información faltante.
 Uso de los servicios: el perfil agregado presenta una media de 5,5 mensajes, 4,5 llamadas y 23,3 minutos de llamada por cliente.
@@ -53,6 +58,7 @@ Priorizar la segmentación basada en el comportamiento de consumo y contrastarla
 Mejorar la captura de ciudades y fechas de registro para aumentar la confiabilidad de los análisis.
 Investigar los consumos extremos antes de clasificarlos como errores o posibles anomalías.
 Analizar las tasas de cancelación (churn) por plan y segmento para orientar las estrategias de retención.
+
 ▶️ Cómo abrir el notebook en Google Colab
 Haz clic en el siguiente botón para abrir el notebook:
 

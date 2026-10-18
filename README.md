@@ -1,7 +1,5 @@
-Escritura
+# ConnectaTel – Análisis de datos de telecomunicaciones
 
-
-ConnectaTel – Análisis de datos de telecomunicaciones
 Este repositorio contiene un análisis exploratorio de datos (EDA) del comportamiento de los clientes de ConnectaTel, una empresa de telecomunicaciones con operaciones en México y Colombia.
 
 El proyecto analiza la información de los clientes, los planes contratados y el uso de los servicios móviles durante el periodo de estudio, con datos registrados hasta 2024. El objetivo es identificar patrones de consumo de llamadas y mensajes, detectar inconsistencias y valores atípicos, segmentar a los usuarios y generar recomendaciones comerciales basadas en los datos.

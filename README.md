@@ -92,4 +92,4 @@ Enlace del repositorio: https://github.com/JohanaSalas1978/ConnectaTel-Analysis
 
 ## ▶️ Abrir notebook en Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][(https://colab.research.google.com/github/JohanaSalas1978/ConnectaTel-Analysis/blob/main/S7%20Version%20Final-Estudiante-Project-ConnectaTe....ipynb)](https://colab.research.google.com/github/JohanaSalas1978/ConnectaTel-Analysis/blob/main/S7%20Version%20Final-Estudiante-Project-ConnectaTel.ipynb)
+[[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][(https://colab.research.google.com/github/JohanaSalas1978/ConnectaTel-Analysis/blob/main/S7%20Version%20Final-Estudiante-Project-ConnectaTe....ipynb)](https://colab.research.google.com/github/JohanaSalas1978/ConnectaTel-Analysis/blob/main/S7%20Version%20Final-Estudiante-Project-ConnectaTel.ipynb)](https://colab.research.google.com/github/JohanaSalas1978/ConnectaTel-Analysis/blob/main/S7%20Version%20Final-Estudiante-Project-ConnectaTel.ipynb)
